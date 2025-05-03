@@ -137,7 +137,7 @@ export function unique(arr) {
   return uniqueArr;
 }
 
-// 13. max(arr)
+// 14. max(arr)
 export function max(arr) {
   let maxVal = arr[0];
   for (let i = 1; i < arr.length; i++) {
@@ -148,7 +148,7 @@ export function max(arr) {
   return maxVal;
 }
 
-// 13. min(arr)
+// 15. min(arr)
 export function min(arr) {
   let minVal = arr[0];
   for (let i = 1; i < arr.length; i++) {
