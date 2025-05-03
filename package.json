@@ -1,0 +1,16 @@
+{
+  "name": "array-utils-mini",
+  "version": "1.1.0",
+  "description": "A mini JavaScript array utility library with manually implemented core methods.",
+  "main": "arrayUtils.js",
+  "type": "module",
+  "keywords": [
+    "array",
+    "utility",
+    "javascript",
+    "dsa",
+    "manual"
+  ],
+  "author": "Arijit Basu",
+  "license": "MIT"
+}
