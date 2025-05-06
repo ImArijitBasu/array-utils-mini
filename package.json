@@ -1,6 +1,6 @@
 {
   "name": "array-utils-mini",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "A mini JavaScript array utility library with manually implemented core methods.",
   "main": "arrayUtils.js",
   "type": "module",

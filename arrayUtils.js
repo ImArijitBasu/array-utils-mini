@@ -158,3 +158,16 @@ export function min(arr) {
   }
   return minVal;
 }
+
+// 16. insertArrayAt(arr, pos, toInsert) 
+export function insertArrayAt(arr, pos, toInsert) {
+  if (!Array.isArray(arr) || !Array.isArray(toInsert)) {
+    throw new Error("Both arr and toInsert must be arrays");
+  }
+  if (pos < 0 || pos > arr.length) {
+    throw new Error("Invalid position");
+  }
+
+  arr.splice(pos, 0, ...toInsert);
+  return arr;
+}

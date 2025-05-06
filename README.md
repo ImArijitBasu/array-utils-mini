@@ -38,18 +38,14 @@ npm install array-utils-mini
 * `unique(arr)` — remove duplicate values
 * `max(arr)` — get the maximum value
 * `min(arr)` — get the minimum value
+* `insertArrayAt(arr, pos, toInsert)` — insert an array in a specific position of an array
 
 ---
 
 ## 🔧 Usage
 
 ```js
-import {
-  push, pop, shift, unshift,
-  indexOf, includes, reverse,
-  map, filter, reduce, slice, splice,
-  unique, max, min
-} from 'array-utils-mini';
+import * from 'array-utils-mini';
 
 const arr = [1, 2, 2, 3, 4];
 
